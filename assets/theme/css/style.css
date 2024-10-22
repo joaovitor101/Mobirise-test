@@ -681,7 +681,28 @@ input[type=range] {
     height: calc(100vh - 1rem);
   }
 }
+::-webkit-scrollbar{
+  width: 9px;
+  height: 3px;
+}
 
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track-piece{
+  background-color: #252525;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 100px;
+  background-color: rgb(167, 167, 167);
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #525252;
+}
 .carousel-item {
   text-align: center;
 }
